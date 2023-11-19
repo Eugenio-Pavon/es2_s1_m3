@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      .barra {
+        background-color: rgb(250, 250, 234);
+        border-radius: 100px;
+        height: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-shrink: 300px;
+        flex-basis: 600px;
+        gap: 20px;
+        padding: 30px;
+        align-items: center;
+      }
+      button {
+        flex-shrink: 300px;
+        flex-basis: 180px;
+        height: 60px;
+        background-color: rgb(255, 230, 148);
+        border: 0px;
+        border-radius: 100px;
+        padding: 5px;
+        flex-grow: 1;
+      }
+      .shop {
+        flex-grow: 2.5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 25px;
+        font-weight: bold;
+        height: 100px;
+        gap: 10%;
+        padding-inline: 20px;
+      }
+      img {
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="barra">
+      <button>Our Honey</button>
+      <button>Trace Honey</button>
+      <button class="shop"><img src="./img/logo.png" />SHOP</button>
+      <button>Facilities</button>
+      <button>Contacts</button>
+    </div>
+  </body>
+</html>
